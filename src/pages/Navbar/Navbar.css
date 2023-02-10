@@ -1,0 +1,33 @@
+#navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    height: 80px;
+}
+
+.login_btn{
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+
+/* for medium devices */
+@media only screen and (max-width: 768px) {
+    #navbar_container{
+        padding: 0 2rem;
+    }
+}
+
+
+/* for small devices */
+
+@media only screen and (min-width: 600px) {
+    #navbar_container{
+        padding: 0 1rem;
+    }
+}
