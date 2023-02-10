@@ -1,0 +1,95 @@
+#banner_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.banner_title{
+    color: #000;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 3rem;
+}
+
+.color_text{
+    color: rgba(74, 201, 89, 1);
+    font-weight: 400;
+}
+
+.banner_subtitle{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.banner_btn{
+    background-color: rgba(74, 201, 89, 1);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 8px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img_container{
+    /* position: relative; */
+}
+
+.bannerImg{
+    width: 443px;
+    position: relative;
+    z-index: 10;
+}
+
+.bannger_bg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+
+
+/* for medium devices */
+@media only screen and (max-width: 768px) {
+    #banner_container{
+        flex-direction: column;
+        height: 100%;
+        gap: 2rem;
+    }
+
+    .right_side{
+        /* width: 100%; */
+        /* margin: 0 auto; */
+    }
+
+    .bannger_bg{
+        width: 300px;
+        top: 0;
+        left: 0;
+    }
+
+    .img_container{
+        position: relative;
+    }
+
+    .bannerImg{
+        width: 222px;
+    }
+}
+
+
+/* for small devices */
+
+/* @media only screen and (max-width: 600px) {
+    #banner_container{
+        flex-direction: column;
+    }
+} */
