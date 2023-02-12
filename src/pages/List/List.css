@@ -1,0 +1,41 @@
+.todos {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    place-content: center;
+    width: 100%;
+    gap: 40px;
+    height: 100vh;
+}
+
+.todo {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-top: 20px solid rgba(232, 141, 57, 1);
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, 0.198454);
+    padding: 20px;
+}
+
+.todo_done {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    border-top: 20px solid rgba(74, 201, 89, 1);
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, 0.198454);
+    padding: 20px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list label{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.list input[type='radio']{
+    width: 20px;
+    height: 20px;
+}
